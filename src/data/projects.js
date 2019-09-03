@@ -76,5 +76,33 @@ export const projects = [
             "Effectively working with filesystem with node.js"
         ]
       
+      },
+      { 
+        name: "StarTrader" ,
+        description:"Space trading game.",
+        github:"https://github.com/crianonim/star-trader",
+        live:"https://listonosz-postman.herokuapp.com/",
+        screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+        problem:[
+         `find a video if youtube link is entered`,
+         `choose format and quality from the available for a given video`,
+         `download directly a video file to my device even if I'm not logged in`,
+         `be able to log into my account using my Google account`,
+         `store the video on the server on my account and retrieve later (when on wifi)`,
+         `delete stored videos from my account`,   
+        ],
+        tech:[
+            "React",
+            "React Material-UI",
+            "Redux",
+        ],
+        learning:[
+            "CSS-in-JS",
+            "Vue.js framework",
+            "Working with complex API like Youtube and using libraries to help with that",
+            "Using Google Authorisation both on the frontend but also verifying it and using it to manage users account",
+            "Effectively working with filesystem with node.js"
+        ]
+      
       }
 ];
