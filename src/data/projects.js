@@ -15,6 +15,8 @@ export const projects = [
           "HTML template element",
           "Custom elements",
           "It is not always easy to style custom elements protected with shadow root",
+          "Using TFL Api",
+          "Utilising Location Web API",
           "(progressive web app)",
       ]
     
