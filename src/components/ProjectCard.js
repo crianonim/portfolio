@@ -1,4 +1,6 @@
 import React from "react";
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import './ProjectCard.sass';
 
 export default ({project})=>{
@@ -10,8 +12,22 @@ export default ({project})=>{
             <div>
               <h2>{project.name}</h2>
               <p>{project.description}</p>
+              <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
+              <a href={project.live} rel="noopener noreferrer" target="_blank">Live</a>
             </div>
           </header>
+          <div className="extended-hidden">
+              <h3>Problem</h3>
+              <p>{project.problem}</p>
+              <h3>Tech stack used to solve</h3>
+              <ul>
+                {project.tech.map((tech,i)=><li key={i}>{tech}</li>)}
+              </ul>
+              <h3>Learning Outcomes</h3>
+              <ul>
+                {project.learning.map((outcome,i)=><li key={i}>{outcome}</li>)}
+              </ul>
+          </div>
             
         </article>
     )
