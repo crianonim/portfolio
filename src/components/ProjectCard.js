@@ -1,6 +1,7 @@
 import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import './ProjectCard.sass';
 
 export default ({project})=>{
@@ -12,10 +13,12 @@ export default ({project})=>{
                 <img alt={project.name} src={project.screenshot}/>
               </div>
             <div>
-              <h2>{project.name}</h2>
-              <p>{project.description}</p>
+              <h2>{project.name}  
               <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
-              <a href={project.live} rel="noopener noreferrer" target="_blank">Live</a>
+              <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGlobe}/></a>
+                </h2>
+              <p>{project.description}</p>
+             
             </div>
           </header>
           <div className="extended-hidden">
