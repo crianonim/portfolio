@@ -8,7 +8,9 @@ export default ({project})=>{
     return (
         <article className="project-card">
           <header>
-              <img alt={project.name} src={project.screenshot}/>
+              <div className="image-wrapper">
+                <img alt={project.name} src={project.screenshot}/>
+              </div>
             <div>
               <h2>{project.name}</h2>
               <p>{project.description}</p>
