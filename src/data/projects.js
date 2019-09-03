@@ -101,5 +101,27 @@ export const projects = [
             while keeping the reducers pure and predictable`,
         ]
       
+      },
+      { 
+        name: "SVaroG" ,
+        description:"SVG editor",
+        github:"https://github.com/crianonim/svarog",
+        live:"https://listonosz-postman.herokuapp.com/",
+        screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+        problem:[
+         `create and edit a SVG`,
+         `work offline if needed`,
+         `being able to save current work locally`,
+         `import existing SVG`
+        ],
+        tech:[
+            "React with hooks",
+            "SVG",
+        ],
+        learning:[
+            "Creating, displaying, parsing and manipulating SVG and their child element using code",
+            "Use React with hooks (including custom hooks) to manage the UI",
+        ]
+      
       }
 ];
