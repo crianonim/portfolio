@@ -22,8 +22,11 @@ export default ({project})=>{
             </div>
           </header>
           <div className="extended-hidden">
-              <h3>Problem</h3>
-              <p>{project.problem}</p>
+              <h3>Problem / Requirements</h3>
+              <h4>I would like to...</h4>
+              <ul>
+                {project.problem.map((problem,i)=><li key={i}>{problem}</li>)}
+              </ul>
               <h3>Tech stack used to solve</h3>
               <ul>
                 {project.tech.map((tech,i)=><li key={i}>{tech}</li>)}
