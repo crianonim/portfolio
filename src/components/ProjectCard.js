@@ -15,7 +15,7 @@ export default ({project})=>{
         <article className="project-card">
           <header>
               <div className="image-wrapper">
-                <img alt={project.name} src={project.screenshot}/>
+                <img alt={project.name} src={project.screenshot.startsWith('img')?process.env.PUBLIC_URL+project.screenshot:project.screenshot}/>
               </div>
             <div>
               <h2>{project.name}  

@@ -123,5 +123,67 @@ export const projects = [
             "Use React with hooks (including custom hooks) to manage the UI",
         ]
       
-      }
+      },
+      { 
+        name: "Text-game" ,
+        description:"Text based adventure game with crafting and survival and rich dialogs and story.",
+        github:"https://github.com/crianonim/text-game",
+        live:"https://crianonim.github.io/text-game/dist/",
+        screenshot:"img/text-game.png",
+        problem:[
+         `play a dialog based game both on mobile and desktop`,
+         `deploy it without a need for the server, just frontend`,
+         `be able do create, modify and deploy my own scenario without writing code, just json files`,
+         `save and load game so I can continue playing with no progress loss`,
+         `have at least one playable game`   
+        ],
+        tech:[
+            "Vue.js frontend",
+        ],
+        learning:[
+            "Vue.js framework",
+            "Using complex JSON files to create and configure games, scenarios as not hard-coded",
+            "Create a custimisable and expandable product without knowing how to code"
+        ]
+      
+      }, { 
+        name: "No Man's Sky Directory" ,
+        description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
+        github:"https://github.com/crianonim/nms-directory",
+        live:"https://crianonim.github.io/nms-directory",
+        screenshot:"img/text-game.png",
+        problem:[
+          `see details of all materials available in the game`,
+          `learn what recipes there are to craft/refine given material`,
+          `check what a given material is used for`,
+          `sort and filter material list using various criteria`
+        ],
+        tech:[
+            "React",
+        ],
+        learning:[
+            "React with hooks",
+            "Scraping the outside sources (game wikipedia pages) to obtain data",
+            "Process different data sources in various formats into usable data model object"
+        ]
+      
+      },
+      { 
+        name: "Echoserver" ,
+        description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
+        github:"https://github.com/crianonim/echoserver",
+        live:"#",
+        screenshot:"img/text-game.png",
+        problem:[
+        ],
+        tech:[
+            "Express.js",
+            "Node.js"
+        ],
+        learning:[
+            "Designing an API",
+            "Responding to different kinds of requests (HTTPS Methods, Accept Headers) with suitable responses",
+          ]
+      
+      },
 ];
