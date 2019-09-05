@@ -1,8 +1,14 @@
 import React,{useRef,useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faVuejs} from '@fortawesome/free-brands-svg-icons';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons';
+import ExpressIcon from '../assets/expressjs.svg'
 import './ProjectCard.sass';
+
+const stackIcons=[
+  {name:"vue",type:"fa",data:faVuejs},
+  {name:"express",type:"svg",data:ExpressIcon}
+]
 
 export default ({project})=>{
     const extended=useRef(null);
@@ -23,6 +29,14 @@ export default ({project})=>{
               <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGlobe}/></a>
                 </h2>
               <p>{project.description}</p>
+              <div className="stack_icons">
+                {project.stack && project.stack.map(name=>stackIcons.find(el=>el.name===name))
+                  .filter(Boolean)
+                  .map( (stack,i)=>stack.type==='fa'?
+                   <FontAwesomeIcon key={i} size="2x" icon={stack.data}/>:
+                   <img src={stack.data} key={i} style={{height:'2em'}} alt="stack.name"/>
+                   )}
+              </div>
               <button onClick={toggleExtend}>{isExtended?'Hide':'Expand'}</button>
             </div>
           </header>

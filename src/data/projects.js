@@ -5,6 +5,7 @@ export const projects = [
       github:"https://github.com/crianonim/buslonbus",
       live:"https://crianonim.github.io/buslonbus/",
       screenshot:"https://camo.githubusercontent.com/f2e6ffdb23601b6f87f402c887167ebc9e6aaf74/68747470733a2f2f692e696d6775722e636f6d2f5376786f5153452e706e67",
+      stack:["js","html"],
       problem:[
         `quickly find next arrivals at selected bus stop, chosen based on my location or code displayed at the stop`,
         `bookmark selected stops`,
@@ -14,6 +15,7 @@ export const projects = [
       tech:[
           "Plain vanilla js, not meant to be comapatible with all browsers but to utilise the latest in web technologies"
       ],
+      
       learning:[
           "HTML template element",
           "Custom elements",
@@ -30,6 +32,9 @@ export const projects = [
         github:"https://github.com/crianonim/listonosz",
         live:"https://listonosz-postman.herokuapp.com/",
         screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+        stack:[
+          "vue","vuetify","express"
+        ],
         problem:[
          `be able to test API endpoints`,
          `be able to make request easily, selecting a HTTP method, url, pass parameters and set headers`,
@@ -55,6 +60,7 @@ export const projects = [
         github:"https://github.com/crianonim/tytubka",
         live:"https://listonosz-postman.herokuapp.com/",
         screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+        stack:["vue","express"],
         problem:[
          `find a video if youtube link is entered`,
          `choose format and quality from the available for a given video`,
@@ -83,6 +89,7 @@ export const projects = [
         github:"https://github.com/crianonim/star-trader",
         live:"https://listonosz-postman.herokuapp.com/",
         screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+        stack:["react","material","redux"],
         problem:[
          `play a game in which I am a trader in space!`,
          `travel between trading posts on different planets`,
@@ -108,6 +115,7 @@ export const projects = [
         github:"https://github.com/crianonim/svarog",
         live:"https://listonosz-postman.herokuapp.com/",
         screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+        stack:["react","svg"],
         problem:[
          `create and edit a SVG`,
          `work offline if needed`,
@@ -130,6 +138,7 @@ export const projects = [
         github:"https://github.com/crianonim/text-game",
         live:"https://crianonim.github.io/text-game/dist/",
         screenshot:"img/text_game.png",
+        stack:["vue"],
         problem:[
          `play a dialog based game both on mobile and desktop`,
          `deploy it without a need for the server, just frontend`,
@@ -152,6 +161,7 @@ export const projects = [
         github:"https://github.com/crianonim/nms-directory",
         live:"https://crianonim.github.io/nms-directory",
         screenshot:"img/text_game.png",
+        stack:["react"],
         problem:[
           `see details of all materials available in the game`,
           `learn what recipes there are to craft/refine given material`,
@@ -174,6 +184,7 @@ export const projects = [
         github:"https://github.com/crianonim/echoserver",
         live:"#",
         screenshot:"img/text_game.png",
+        stack:["node","express"],
         problem:[
         ],
         tech:[
