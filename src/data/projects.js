@@ -129,7 +129,7 @@ export const projects = [
         description:"Text based adventure game with crafting and survival and rich dialogs and story.",
         github:"https://github.com/crianonim/text-game",
         live:"https://crianonim.github.io/text-game/dist/",
-        screenshot:"img/text-game.png",
+        screenshot:"img/text_game.png",
         problem:[
          `play a dialog based game both on mobile and desktop`,
          `deploy it without a need for the server, just frontend`,
@@ -151,7 +151,7 @@ export const projects = [
         description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
         github:"https://github.com/crianonim/nms-directory",
         live:"https://crianonim.github.io/nms-directory",
-        screenshot:"img/text-game.png",
+        screenshot:"img/text_game.png",
         problem:[
           `see details of all materials available in the game`,
           `learn what recipes there are to craft/refine given material`,
@@ -173,7 +173,7 @@ export const projects = [
         description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
         github:"https://github.com/crianonim/echoserver",
         live:"#",
-        screenshot:"img/text-game.png",
+        screenshot:"img/text_game.png",
         problem:[
         ],
         tech:[
