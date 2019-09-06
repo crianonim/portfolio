@@ -18,14 +18,14 @@ export default ({project})=>{
             <div className="image-wrapper">
                 <img alt={project.name} src={project.screenshot.startsWith('img')?process.env.PUBLIC_URL+project.screenshot:project.screenshot}/>
             </div>
-            <div>
+            <div className="project-content">
               <h2>{project.name}  
               <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
               <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGlobe}/></a>
                 </h2>
               <p>{project.description}</p>
               <StackIcons stack={project.stack}/>
-              <button onClick={toggleExtend}>{isExtended?'Hide':'Expand'}</button>
+              <button className="expand-button" onClick={toggleExtend}>{isExtended?'Less':'More...'}</button>
             </div>
           </header>
           <div className="extended hidden" ref={extended}>
