@@ -1,13 +1,23 @@
 import React,{useRef,useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub, faVuejs} from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faVuejs, faHtml5, faJs, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons';
 import ExpressIcon from '../assets/expressjs.svg'
+import VuetifyIcon from '../assets/vuetify.svg'
+import ReduxIcon from '../assets/redux.svg'
+import MaterialIcon from '../assets/material.svg'
 import './ProjectCard.sass';
 
 const stackIcons=[
   {name:"vue",type:"fa",data:faVuejs},
-  {name:"express",type:"svg",data:ExpressIcon}
+  {name:"express",type:"svg",data:ExpressIcon},
+  {name:"html",type:"fa",data:faHtml5},
+  {name:"node",type:"fa",data:faNodeJs},
+  {name:"js",type:"fa",data:faJs},
+  {name:"vuetify",type:"svg",data:VuetifyIcon},
+  {name:"react",type:"fa",data:faReact},
+  {name:"redux",type:"svg",data:ReduxIcon},
+  {name:"material",type:"svg",data:MaterialIcon},
 ]
 
 export default ({project})=>{
@@ -34,7 +44,7 @@ export default ({project})=>{
                   .filter(Boolean)
                   .map( (stack,i)=>stack.type==='fa'?
                    <FontAwesomeIcon key={i} size="2x" icon={stack.data}/>:
-                   <img src={stack.data} key={i} style={{height:'2em'}} alt="stack.name"/>
+                   <img src={stack.data} key={i}  alt="stack.name"/>
                    )}
               </div>
               <button onClick={toggleExtend}>{isExtended?'Hide':'Expand'}</button>
