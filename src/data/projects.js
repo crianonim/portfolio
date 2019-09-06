@@ -161,7 +161,7 @@ export const projects = [
         github:"https://github.com/crianonim/nms-directory",
         live:"https://crianonim.github.io/nms-directory",
         screenshot:"img/text_game.png",
-        stack:["react"],
+        stack:["react","sass"],
         problem:[
           `see details of all materials available in the game`,
           `learn what recipes there are to craft/refine given material`,

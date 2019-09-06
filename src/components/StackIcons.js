@@ -1,7 +1,7 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import { faVuejs, faHtml5, faJs, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons';
+import { faVuejs, faHtml5, faJs, faNodeJs, faReact, faSass} from '@fortawesome/free-brands-svg-icons';
 
 import ExpressIcon from '../assets/expressjs.svg'
 import VuetifyIcon from '../assets/vuetify.svg'
@@ -21,6 +21,7 @@ const stackIcons=[
   {name:"redux",type:"svg",data:ReduxIcon},
   {name:"material",type:"svg",data:MaterialIcon},
   {name:"svg",type:"svg",data:SVGIcon},
+  {name:"sass",type:"fa",data:faSass}
 ]
 
 export default ({stack})=>{
