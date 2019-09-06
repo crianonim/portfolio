@@ -1,26 +1,9 @@
 import React,{useRef,useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import {faGithub, faVuejs, faHtml5, faJs, faNodeJs, faReact} from '@fortawesome/free-brands-svg-icons';
+import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons';
-import ExpressIcon from '../assets/expressjs.svg'
-import VuetifyIcon from '../assets/vuetify.svg'
-import ReduxIcon from '../assets/redux.svg'
-import MaterialIcon from '../assets/material.svg'
-import SVGIcon from '../assets/svg.svg'
+import StackIcons from './StackIcons'
 import './ProjectCard.sass';
-
-const stackIcons=[
-  {name:"vue",type:"fa",data:faVuejs},
-  {name:"express",type:"svg",data:ExpressIcon},
-  {name:"html",type:"fa",data:faHtml5},
-  {name:"node",type:"fa",data:faNodeJs},
-  {name:"js",type:"fa",data:faJs},
-  {name:"vuetify",type:"svg",data:VuetifyIcon},
-  {name:"react",type:"fa",data:faReact},
-  {name:"redux",type:"svg",data:ReduxIcon},
-  {name:"material",type:"svg",data:MaterialIcon},
-  {name:"svg",type:"svg",data:SVGIcon},
-]
 
 export default ({project})=>{
     const extended=useRef(null);
@@ -32,23 +15,16 @@ export default ({project})=>{
     return (
         <article className="project-card">
           <header>
-              <div className="image-wrapper">
+            <div className="image-wrapper">
                 <img alt={project.name} src={project.screenshot.startsWith('img')?process.env.PUBLIC_URL+project.screenshot:project.screenshot}/>
-              </div>
+            </div>
             <div>
               <h2>{project.name}  
               <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
               <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGlobe}/></a>
                 </h2>
               <p>{project.description}</p>
-              <div className="stack_icons">
-                {project.stack && project.stack.map(name=>stackIcons.find(el=>el.name===name))
-                  .filter(Boolean)
-                  .map( (stack,i)=>stack.type==='fa'?
-                   <FontAwesomeIcon key={i} size="2x" icon={stack.data}/>:
-                   <img src={stack.data} key={i}  alt="stack.name"/>
-                   )}
-              </div>
+              <StackIcons stack={project.stack}/>
               <button onClick={toggleExtend}>{isExtended?'Hide':'Expand'}</button>
             </div>
           </header>
