@@ -2,6 +2,7 @@ $grey: #888
 $lighter: #aaa
 
 .project-card 
+   
     border-radius: 3px
     border: 1px solid $grey
     padding: 1rem
@@ -28,11 +29,17 @@ $lighter: #aaa
            width: 300px
            height: 200px
            object-fit: contain
-       
-       content
+       .project-content
+         display: flex
+         flex-direction: column
          flex-grow: 1
+
+         h2
+           margin: 0
     .extended
       transition: all 1s
     .extended.hidden
       height: 0
       overflow-y: hidden
+
+.expand-button 
