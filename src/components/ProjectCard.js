@@ -6,6 +6,7 @@ import ExpressIcon from '../assets/expressjs.svg'
 import VuetifyIcon from '../assets/vuetify.svg'
 import ReduxIcon from '../assets/redux.svg'
 import MaterialIcon from '../assets/material.svg'
+import SVGIcon from '../assets/svg.svg'
 import './ProjectCard.sass';
 
 const stackIcons=[
@@ -18,6 +19,7 @@ const stackIcons=[
   {name:"react",type:"fa",data:faReact},
   {name:"redux",type:"svg",data:ReduxIcon},
   {name:"material",type:"svg",data:MaterialIcon},
+  {name:"svg",type:"svg",data:SVGIcon},
 ]
 
 export default ({project})=>{
