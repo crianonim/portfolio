@@ -20,8 +20,8 @@ export default ({project})=>{
             </div>
             <div className="project-content">
               <h2>{project.name}  
-              <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGithub}/></a>
-              <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon icon={faGlobe}/></a>
+              <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="Code on Github" icon={faGithub}/></a>
+              <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="See Live App" icon={faGlobe}/></a>
                 </h2>
               <p>{project.description}</p>
               <StackIcons stack={project.stack}/>
