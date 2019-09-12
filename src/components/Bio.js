@@ -5,15 +5,18 @@ export default () => {
   return (
     <div>
       <p>
-        I am a <span className="tt" data-tip="Whatever I write here is a lot I wonder how long can it be Or no">curious learner</span> and want to turn my lifelong passion for coding
+        I am a <span className="tip" data-tip="Wheter it's a new language (natural or programming), new cooking recipe, <br> or a new way to do something I already know <br> I try to make sure everthing I do has a learning component to it">curious learner</span>
+         and want to turn my <span className="tip" data-tip="I wrote my first lines in 1991 in BASIC after getting a 'powerful' Commodore 64 computer<br>I was hooked for life, coding became my pleasure and joy.">lifelong passion for coding </span> 
         into a career as a software engineer with the help of Founders and
         Coders' wonderful and transformational programme.
       </p>
 
       <p>
         I'm a full-stack web developer and I have honed my skills at FAC over
-        the past four months. My primary coding language is Javascript but I'm a
-        superficial polyglot with some experience using Go, Java, Python and
+        the past four months. My primary coding language is 
+        <span className="tip" data-tip="I love how versatile this quirky language is, from browser to server to mobile to database!"> Javascript </span>but I'm a
+        <span className="tip" data-tip="I played with many more languages (BASIC, Pascal, Assembler, C, C++),<br> usually just enough to understand how differently does it solve a common problem"> superficial polyglot </span>
+        with some experience using  Java, Python, Go, Haskell and
         PHP. A functional programming convert, I know a lot about Linux sysadmin
         and am familiar with docker containerisation technology.
       </p>
@@ -31,7 +34,7 @@ export default () => {
         new people at places like Codebar.io, where I have been volunteering
         since August.
       </p>
-    <ReactTooltip/>
+    <ReactTooltip  multiline="true"/>
     </div>
   );
 };
