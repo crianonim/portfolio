@@ -4,7 +4,7 @@ export const projects = [
     description:"Simple and efficient London Bus app written in pure vanilla JavaScript using lastest features.",
     github:"https://github.com/crianonim/buslonbus",
     live:"https://crianonim.github.io/buslonbus/",
-    screenshot:"https://camo.githubusercontent.com/f2e6ffdb23601b6f87f402c887167ebc9e6aaf74/68747470733a2f2f692e696d6775722e636f6d2f5376786f5153452e706e67",
+    screenshot:["img/buslonbus/img1.png","img/buslonbus/img2.png","img/buslonbus/img3.png","img/buslonbus/BusLonBus.webm"],
     stack:["js","html"],
     problem:[
       `quickly find next arrivals at selected bus stop, chosen based on my location or code displayed at the stop`,
@@ -31,7 +31,7 @@ export const projects = [
       description:"Postman clone run as a web app either locally or hosted in the cloud.",
       github:"https://github.com/crianonim/listonosz",
       live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+      screenshot:["https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67"],
       stack:[
         "vue","vuetify","express"
       ],
@@ -59,7 +59,7 @@ export const projects = [
       description:"Web app to store and download Youtube videos to watch offline.",
       github:"https://github.com/crianonim/tytubka",
       live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+      screenshot:["https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67"],
       stack:["vue","express"],
       problem:[
        `find a video if youtube link is entered`,
@@ -88,7 +88,7 @@ export const projects = [
       description:"Get rich in a web space trading game",
       github:"https://github.com/crianonim/star-trader",
       live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+      screenshot:["https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67"],
       stack:["react","material","redux"],
       problem:[
        `play a game in which I am a trader in space!`,
@@ -114,7 +114,7 @@ export const projects = [
       description:"SVG editor and generator focused on precision and manually updating the shape properties",
       github:"https://github.com/crianonim/svarog",
       live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:"https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67",
+      screenshot:["https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67"],
       stack:["react","svg","sass"],
       problem:[
        `create and edit a SVG`,
@@ -138,7 +138,7 @@ export const projects = [
       description:"Text based adventure game with crafting and survival and rich dialogs and story.",
       github:"https://github.com/crianonim/text-game",
       live:"https://crianonim.github.io/text-game/dist/",
-      screenshot:"img/text_game.png",
+      screenshot:["img/text_game.png"],
       stack:["vue"],
       problem:[
        `play a dialog based game both on mobile and desktop`,
@@ -161,7 +161,7 @@ export const projects = [
       description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
       github:"https://github.com/crianonim/nms-directory",
       live:"https://crianonim.github.io/nms-directory",
-      screenshot:"img/text_game.png",
+      screenshot:["img/text_game.png"],
       stack:["react","sass"],
       problem:[
         `see details of all materials available in the game`,
@@ -184,7 +184,7 @@ export const projects = [
       description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
       github:"https://github.com/crianonim/echoserver",
       live:"#",
-      screenshot:"img/text_game.png",
+      screenshot:["img/text_game.png"],
       stack:["node","express"],
       problem:[
         "test api calls from the app I'm working on currently",

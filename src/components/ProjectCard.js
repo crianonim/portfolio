@@ -18,9 +18,8 @@ export default ({project})=>{
         <article className="project-card">
           <header>
             <div className="image-wrapper">
-                <img alt={project.name} src={project.screenshot.startsWith('img')?process.env.PUBLIC_URL+project.screenshot:project.screenshot}/>
+                <img onClick={()=>setToggler(!toggler)} alt={project.name} src={project.screenshot[0]}/>
             </div>
-            <button onClick={()=>setToggler(!toggler)}></button>
             <div className="project-content">
               <h2>{project.name}  
               <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="Code on Github" icon={faGithub}/></a>
@@ -46,7 +45,7 @@ export default ({project})=>{
                 {project.learning.map((outcome,i)=><li key={i}>{outcome}</li>)}
               </ul>
           </div>
-          <FsLightbox toggler={toggler} type="image" sources={[project.screenshot,project.screenshot,project.screenshot]}/>
+          <FsLightbox toggler={toggler} sources={project.screenshot}/>
         </article>
     )
 }
