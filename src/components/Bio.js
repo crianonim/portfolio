@@ -1,10 +1,11 @@
 import React from "react";
-
+import ReactTooltip from "react-tooltip";
+import "./Bio.sass";
 export default () => {
   return (
     <div>
       <p>
-        I am a curious learner and want to turn my lifelong passion for coding
+        I am a <span className="tt" data-tip="Whatever I write here is a lot I wonder how long can it be Or no">curious learner</span> and want to turn my lifelong passion for coding
         into a career as a software engineer with the help of Founders and
         Coders' wonderful and transformational programme.
       </p>
@@ -30,6 +31,7 @@ export default () => {
         new people at places like Codebar.io, where I have been volunteering
         since August.
       </p>
+    <ReactTooltip/>
     </div>
   );
 };
