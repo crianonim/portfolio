@@ -2,12 +2,14 @@ import React,{useRef,useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import {faGlobe} from '@fortawesome/free-solid-svg-icons';
-import StackIcons from './StackIcons'
+import StackIcons from './StackIcons';
+import FsLightbox from 'fslightbox-react';
 import './ProjectCard.sass';
 
 export default ({project})=>{
     const extended=useRef(null);
     const [isExtended,setIsExtended]=useState(false);
+    const [toggler,setToggler]=useState(false);
     const toggleExtend=()=>{
       extended.current.classList.toggle('hidden');
       setIsExtended(!isExtended);
@@ -18,6 +20,7 @@ export default ({project})=>{
             <div className="image-wrapper">
                 <img alt={project.name} src={project.screenshot.startsWith('img')?process.env.PUBLIC_URL+project.screenshot:project.screenshot}/>
             </div>
+            <button onClick={()=>setToggler(!toggler)}></button>
             <div className="project-content">
               <h2>{project.name}  
               <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="Code on Github" icon={faGithub}/></a>
@@ -43,7 +46,7 @@ export default ({project})=>{
                 {project.learning.map((outcome,i)=><li key={i}>{outcome}</li>)}
               </ul>
           </div>
-            
+          <FsLightbox toggler={toggler} type="image" sources={[project.screenshot,project.screenshot,project.screenshot]}/>
         </article>
     )
 }
