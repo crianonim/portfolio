@@ -1,6 +1,7 @@
 export const projects = [
   { 
     name: "BusLonBus" ,
+    type:"personal",
     description:"Simple and efficient London Bus app written in pure vanilla JavaScript using lastest features.",
     github:"https://github.com/crianonim/buslonbus",
     live:"https://crianonim.github.io/buslonbus/",
@@ -28,6 +29,7 @@ export const projects = [
   },
   { 
       name: "Listonosz" ,
+      type:"team",
       description:"Postman clone run as a web app either locally or hosted in the cloud.",
       github:"https://github.com/crianonim/listonosz",
       live:"https://listonosz-postman.herokuapp.com/",
@@ -56,6 +58,7 @@ export const projects = [
     },
     { 
       name: "Tytubka" ,
+      type:"personal",
       description:"Web app to store and download Youtube videos to watch offline.",
       github:"https://github.com/crianonim/tytubka",
       live:"https://listonosz-postman.herokuapp.com/",
@@ -85,6 +88,7 @@ export const projects = [
     },
     { 
       name: "StarTrader" ,
+      type:"personal",
       description:"Get rich in a web space trading game",
       github:"https://github.com/crianonim/star-trader",
       live:"https://listonosz-postman.herokuapp.com/",
@@ -111,6 +115,7 @@ export const projects = [
     },
     { 
       name: "SVaroG" ,
+      type:"team",
       description:"SVG editor and generator focused on precision and manually updating the shape properties",
       github:"https://github.com/crianonim/svarog",
       live:"https://listonosz-postman.herokuapp.com/",
@@ -135,6 +140,7 @@ export const projects = [
     },
     { 
       name: "Text-game" ,
+      type:"personal",
       description:"Text based adventure game with crafting and survival and rich dialogs and story.",
       github:"https://github.com/crianonim/text-game",
       live:"https://crianonim.github.io/text-game/dist/",
@@ -158,6 +164,7 @@ export const projects = [
     
     }, { 
       name: "No Man's Sky Directory" ,
+      type:"team",
       description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
       github:"https://github.com/crianonim/nms-directory",
       live:"https://crianonim.github.io/nms-directory",
@@ -181,6 +188,7 @@ export const projects = [
     },
     { 
       name: "Echoserver" ,
+      type:"team",
       description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
       github:"https://github.com/crianonim/echoserver",
       live:"#",
