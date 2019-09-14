@@ -26,8 +26,11 @@ export default ({project})=>{
               <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="See Live App" icon={faGlobe}/></a>
                 </h2>
               <p>{project.description}</p>
+              <div className="bottom-buttons">
               <StackIcons stack={project.stack}/>
               <button className="expand-button" onClick={toggleExtend}>{isExtended?'Less':'More...'}</button>
+
+              </div>
             </div>
           </header>
           <div className="extended hidden" ref={extended}>
