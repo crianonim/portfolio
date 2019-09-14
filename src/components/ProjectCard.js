@@ -21,15 +21,16 @@ export default ({project})=>{
                 <img onClick={()=>setToggler(!toggler)} alt={project.name} src={project.screenshot[0]}/>
             </div>
             <div className="project-content">
-              <h2>{project.name}  
-              <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="Code on Github" icon={faGithub}/></a>
-              <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="See Live App" icon={faGlobe}/></a>
-                </h2>
+              <h2>{project.name}
+               <span>
+                <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="Code on Github" icon={faGithub}/></a>
+                <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="See Live App" icon={faGlobe}/></a>
+               </span>
+              </h2>
               <p>{project.description}</p>
               <div className="bottom-buttons">
-              <StackIcons stack={project.stack}/>
-              <button className="expand-button" onClick={toggleExtend}>{isExtended?'Less':'More...'}</button>
-
+               <StackIcons stack={project.stack}/>
+               <button className="expand-button" onClick={toggleExtend}>{isExtended?'Less':'More...'}</button>
               </div>
             </div>
           </header>
