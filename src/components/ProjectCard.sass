@@ -2,11 +2,12 @@ $grey: #888
 $lighter: #eee
 
 .project-card 
-    border-radius: 3px
-    border: 1px solid $grey
-    padding: 1rem
-    margin: 1rem auto
-    box-shadow: 3px 3px 3px $grey 
+    // border-radius: 3px
+    border-top: 1px solid $grey
+    // padding: 1rem
+    margin: 0 auto
+    // margin-bottom: 0
+    // box-shadow: 0px -3px 3px 3px $grey 
 
     header
        margin-top: 1rem
@@ -24,16 +25,21 @@ $lighter: #eee
           opacity: 1
           svg
            transform: scale(1.2)
+        
+
        .image-wrapper 
           margin-right: 1rem
           margin-bottom: 1rem
           background-color: $lighter
           height: 200px
+          cursor: pointer
+          
           img
            width: 300px
            height: 200px
            object-fit: contain
            max-width: 100%
+
 
        .project-content
          display: flex
@@ -42,12 +48,21 @@ $lighter: #eee
 
          h2
            margin: 0
+           display: flex
+           justify-content: space-between
+         .bottom-buttons
+           display: flex
+           justify-content: space-between
+           flex-grow: 1
+           align-items: flex-end
+           margin-bottom: 1rem
+
     .extended
       transition: all 1s
     .extended.hidden
       height: 0
       overflow-y: hidden
 
-.expand-button 
-  margin-bottom: 1rem
-  margin-top: 1rem
+// .expand-button 
+//   margin-bottom: 1rem
+//   margin-top: 1rem
