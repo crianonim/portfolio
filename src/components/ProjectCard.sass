@@ -15,7 +15,7 @@ $lighter: #eee
        flex-wrap: wrap
        justify-content: center
        
-       a
+       a, .project-type-icon
         opacity: 0.7
         transition: all 0.5s
         margin-left: 1rem 
@@ -31,14 +31,28 @@ $lighter: #eee
           margin-right: 1rem
           margin-bottom: 1rem
           background-color: $lighter
-          height: 200px
+          height: 160px
           cursor: pointer
+          position: relative
+          transition: all 0.5s
+          &:hover 
+            transform: scale(1.05)
+            z-index: 2
           
           img
-           width: 300px
-           height: 200px
+           width: 240px
+           height: 160px
            object-fit: contain
            max-width: 100%
+          
+          .zoom-icon
+            position: absolute
+            bottom: 0.5rem
+            right: 0.5rem
+            opacity: 0.5
+            transition: all 0.5s
+            &:hover
+              opacity: 2
 
 
        .project-content
