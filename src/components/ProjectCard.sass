@@ -33,12 +33,26 @@ $lighter: #eee
           background-color: $lighter
           height: 160px
           cursor: pointer
+          position: relative
+          transition: all 0.5s
+          &:hover 
+            transform: scale(1.05)
+            z-index: 2
           
           img
            width: 240px
            height: 160px
            object-fit: contain
            max-width: 100%
+          
+          .zoom-icon
+            position: absolute
+            bottom: 0.5rem
+            right: 0.5rem
+            opacity: 0.5
+            transition: all 0.5s
+            &:hover
+              opacity: 2
 
 
        .project-content

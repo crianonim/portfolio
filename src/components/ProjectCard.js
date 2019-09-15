@@ -1,7 +1,7 @@
 import React,{useRef,useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faGlobe} from '@fortawesome/free-solid-svg-icons';
+import {faGlobe, faSearch} from '@fortawesome/free-solid-svg-icons';
 import StackIcons from './StackIcons';
 import FsLightbox from 'fslightbox-react';
 import './ProjectCard.sass';
@@ -19,6 +19,7 @@ export default ({project})=>{
           <header>
             <div className="image-wrapper">
                 <img onClick={()=>setToggler(!toggler)} alt={project.name} src={project.screenshot[0]}/>
+                <FontAwesomeIcon className="zoom-icon" icon={faSearch} />
             </div>
             <div className="project-content">
               <h2>{project.name}
