@@ -1,7 +1,7 @@
 import React,{useRef,useState} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faGlobe, faSearch} from '@fortawesome/free-solid-svg-icons';
+import {faGlobe, faSearch, faUsers, faUser} from '@fortawesome/free-solid-svg-icons';
 import StackIcons from './StackIcons';
 import FsLightbox from 'fslightbox-react';
 import './ProjectCard.sass';
@@ -24,6 +24,7 @@ export default ({project})=>{
             <div className="project-content">
               <h2>{project.name}
                <span>
+                <span className="project-type-icon">{project.type==='team'?<FontAwesomeIcon title="Team project" icon={faUsers}/>:<FontAwesomeIcon title="Personal Project" icon={faUser}/>}</span> 
                 <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="Code on Github" icon={faGithub}/></a>
                 <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="See Live App" icon={faGlobe}/></a>
                </span>
