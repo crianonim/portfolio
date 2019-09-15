@@ -3,6 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import "./TabbedContent.sass";
 import Projects from './Projects';
+import PersonalInterest from "./PersonalInterest";
+import {interests} from "../data/interests";
 export default () => {
   return ( 
     <Tabs>
@@ -15,7 +17,7 @@ export default () => {
       <Projects />
     </TabPanel>
     <TabPanel>
-      <h2>Personal intersts go here...</h2>
+      {interests.map(interest=><PersonalInterest interest={interest}/>)}
     </TabPanel>
   </Tabs>
   )
