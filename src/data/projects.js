@@ -91,8 +91,8 @@ export const projects = [
       type:"personal",
       description:"Get rich in a web space trading game",
       github:"https://github.com/crianonim/star-trader",
-      live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:["https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67"],
+      live:"https://crianonim.github.io/star-trader/",
+      screenshot:["img/star-trader/star0.png","img/star-trader/star1.png","img/star-trader/star2.png","img/star-trader/star3.png","img/star-trader/star.webm"],
       stack:["react","material","redux"],
       problem:[
        `play a game in which I am a trader in space!`,
