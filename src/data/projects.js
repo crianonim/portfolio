@@ -33,7 +33,7 @@ export const projects = [
       description:"Postman clone run as a web app either locally or hosted in the cloud.",
       github:"https://github.com/crianonim/listonosz",
       live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:["https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67"],
+      screenshot:["img/listonosz/listonosz1.png","img/listonosz/listonosz2.png","img/listonosz/listonosz3.png","img/listonosz/listonosz4.png"],
       stack:[
         "vue","vuetify","express"
       ],
@@ -62,7 +62,7 @@ export const projects = [
       description:"Web app to store and download Youtube videos to watch offline.",
       github:"https://github.com/crianonim/tytubka",
       live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:["https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67"],
+      screenshot:["img/tytubka/tytubka0.png"],
       stack:["vue","express"],
       problem:[
        `find a video if youtube link is entered`,
