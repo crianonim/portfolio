@@ -2,7 +2,7 @@ import React from "react";
 import "./Header.sass";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import {faGlobe, faEnvelope, faPhone, faAdjust} from '@fortawesome/free-solid-svg-icons';
+import {faEnvelope, faPhone, faAdjust} from '@fortawesome/free-solid-svg-icons';
 
 const toggleTheme = ()=>{
     document.querySelector('body').classList.toggle('dark')

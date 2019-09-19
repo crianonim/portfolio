@@ -13,11 +13,11 @@ export default () => {
         <Tab>Personal interests</Tab>
       </TabList>
 
-    <TabPanel>
+    <TabPanel key="projects">
       <Projects />
     </TabPanel>
-    <TabPanel>
-      {interests.map(interest=><PersonalInterest interest={interest}/>)}
+    <TabPanel key="interests">
+      {interests.map(interest=><PersonalInterest key={interest.name} interest={interest}/>)}
     </TabPanel>
   </Tabs>
   )
