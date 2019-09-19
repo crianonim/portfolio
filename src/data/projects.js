@@ -119,7 +119,7 @@ export const projects = [
       description:"SVG editor and generator focused on precision and manually updating the shape properties",
       github:"https://github.com/crianonim/svarog",
       live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:["https://camo.githubusercontent.com/5c4b95cc45329b013f26778e14c84a07bd2dff38/68747470733a2f2f692e696d6775722e636f6d2f7072334e364d582e706e67"],
+      screenshot:["img/svarog/svarog1.png","img/svarog/svarog2.png","img/svarog/svarog_mobile.png",],
       stack:["react","svg","sass"],
       problem:[
        `create and edit a SVG`,
