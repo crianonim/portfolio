@@ -35,10 +35,12 @@ $lighter: #eee
           cursor: pointer
           position: relative
           transition: all 0.5s
+          filter: grayscale(1)
           &:hover 
             transform: scale(1.05)
             z-index: 2
-          
+            filter: grayscale(0)
+
           img
            width: 240px
            height: 160px
