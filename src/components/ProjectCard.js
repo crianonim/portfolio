@@ -6,7 +6,7 @@ import StackIcons from './StackIcons';
 import FsLightbox from 'fslightbox-react';
 import './ProjectCard.sass';
 
-export default ({project})=>{
+export default ({project,setFilter})=>{
     const extended=useRef(null);
     const [isExtended,setIsExtended]=useState(false);
     const [toggler,setToggler]=useState(false);
@@ -24,7 +24,7 @@ export default ({project})=>{
             <div className="project-content">
               <h2> <span onClick={toggleExtend} className="project-name">{project.name}</span>
                <span>
-                <span className="project-type-icon">{project.type==='team'?<FontAwesomeIcon title="Team project" icon={faUsers}/>:<FontAwesomeIcon title="Personal Project" icon={faUser}/>}</span> 
+                <span className="project-type-icon">{project.type==='team'?<FontAwesomeIcon onClick={()=>setFilter('team')} title="Team project" icon={faUsers}/>:<FontAwesomeIcon  onClick={()=>setFilter('personal')} title="Personal Project" icon={faUser}/>}</span> 
                 <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="Code on Github" icon={faGithub}/></a>
                 <a href={project.live} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="See Live App" icon={faGlobe}/></a>
                </span>

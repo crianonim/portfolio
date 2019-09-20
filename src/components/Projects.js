@@ -15,7 +15,7 @@ export default ()=>{
                   <button onClick={()=>setFilter("personal")}  className={filter==='personal' ?'selected':''}>Personal</button>
                   <button onClick={()=>setFilter("team")}  className={filter==='team' ? 'selected':''}>Team</button>
               </div>
-                 {filteredProjects.map( (project,i)=><ProjectCard key={i} project={project}/>)}
+                 {filteredProjects.map( (project,i)=><ProjectCard setFilter={setFilter} key={i} project={project}/>)}
         </div>
     )
 }
