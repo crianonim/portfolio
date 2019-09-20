@@ -29,7 +29,7 @@ export const projects = [
   },
   { 
       name: "Listonosz" ,
-      type:"team",
+      type:"personal",
       description:"Postman clone run as a web app either locally or hosted in the cloud.",
       github:"https://github.com/crianonim/listonosz",
       live:"https://listonosz-postman.herokuapp.com/",
@@ -115,7 +115,7 @@ export const projects = [
     },
     { 
       name: "SVaroG" ,
-      type:"team",
+      type:"personal",
       description:"SVG editor and generator focused on precision and manually updating the shape properties",
       github:"https://github.com/crianonim/svarog",
       live:"https://listonosz-postman.herokuapp.com/",
@@ -164,7 +164,7 @@ export const projects = [
     
     }, { 
       name: "No Man's Sky Directory" ,
-      type:"team",
+      type:"personal",
       description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
       github:"https://github.com/crianonim/nms-directory",
       live:"https://crianonim.github.io/nms-directory",
@@ -188,7 +188,7 @@ export const projects = [
     },
     { 
       name: "Echoserver" ,
-      type:"team",
+      type:"personal",
       description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
       github:"https://github.com/crianonim/echoserver",
       live:"#",
@@ -207,6 +207,53 @@ export const projects = [
           "Designing an API",
           "Responding to different kinds of requests (HTTPS Methods, Accept Headers) with suitable responses",
           "Generating different types of content for API caller consumption"
+        ]
+    
+    },
+    { 
+      name: "BELO News" ,
+      type:"team",
+      description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
+      github:"https://github.com/crianonim/echoserver",
+      live:"#",
+      screenshot:["img/belo/belo1.png","img/belo/belo2.png","img/belo/belo3.png"],
+      stack:["node","express"],
+      problem:[
+        "show current tube status using TFL public API",
+        "provide an inspiration quote from an external API",
+        "show random inspirational picture from an external API"
+      ],
+      tech:[
+          "Express.js",
+          "Node.js"
+      ],
+      learning:[
+          "Using external API service to feed data to an app",
+          "Hide API keys in environment variables and apply them in different deployment environment",
+          "Integrating Github, Travis, CodeCov and Heroku",
+          "Testing routes with supertest"
+        ]
+    
+    },{ 
+      name: "Trainspiration" ,
+      type:"team",
+      description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
+      github:"https://github.com/crianonim/echoserver",
+      live:"#",
+      screenshot:["img/trainspiration/trainspiration1.png","img/trainspiration/trainspiration2.png","img/trainspiration/trainspiration3.png"],
+      stack:["JS","HTML"],
+      problem:[
+        "show current tube status using TFL public API",
+        "provide an inspiration quote from an external API",
+        "show random inspirational picture from an external API"
+      ],
+      tech:[
+          "JS",
+          "HTML"
+      ],
+      learning:[
+          "Using three different external API calls, and combine them in our app",
+          "Understanding CORS policy and handle problems with it using proxy"
         ]
     
     },
