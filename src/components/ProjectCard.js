@@ -22,7 +22,7 @@ export default ({project})=>{
                 <FontAwesomeIcon className="zoom-icon" icon={faSearch} />
             </div>
             <div className="project-content">
-              <h2>{project.name}
+              <h2> <span onClick={toggleExtend} className="project-name">{project.name}</span>
                <span>
                 <span className="project-type-icon">{project.type==='team'?<FontAwesomeIcon title="Team project" icon={faUsers}/>:<FontAwesomeIcon title="Personal Project" icon={faUser}/>}</span> 
                 <a href={project.github} rel="noopener noreferrer" target="_blank"><FontAwesomeIcon title="Code on Github" icon={faGithub}/></a>
