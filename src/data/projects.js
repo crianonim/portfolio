@@ -120,7 +120,7 @@ export const projects = [
       github:"https://github.com/crianonim/svarog",
       live:"https://listonosz-postman.herokuapp.com/",
       screenshot:["img/svarog/svarog1.png","img/svarog/svarog2.png","img/svarog/svarog_mobile.png",],
-      stack:["react","svg","sass"],
+      stack:["react","svg","sass","bulma","enzyme"],
       problem:[
        `create and edit a SVG`,
        `work offline if needed`,
@@ -130,11 +130,15 @@ export const projects = [
       tech:[
           "React with hooks",
           "SVG",
-          "Sass"
+          "Sass",
+          "Enzyme",
+          "Bulma"
       ],
       learning:[
           "Creating, displaying, parsing and manipulating SVG and their child element using code",
+          "Using Bulma css library for consistent look",
           "Use React with hooks (including custom hooks) to manage the UI",
+          "Testing React components with Enzyme",
       ]
     
     },
@@ -239,6 +243,29 @@ export const projects = [
       type:"team",
       description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
       github:"https://github.com/crianonim/echoserver",
+      live:"#",
+      screenshot:["img/trainspiration/trainspiration1.png","img/trainspiration/trainspiration2.png","img/trainspiration/trainspiration3.png"],
+      stack:["JS","HTML"],
+      problem:[
+        "show current tube status using TFL public API",
+        "provide an inspiration quote from an external API",
+        "show random inspirational picture from an external API"
+      ],
+      tech:[
+          "JS",
+          "HTML"
+      ],
+      learning:[
+          "Using three different external API calls, and combine them in our app",
+          "Understanding CORS policy and handle problems with it using proxy"
+        ]
+    
+    },
+    { 
+      name: "FoodMiles" ,
+      type:"team",
+      description:"Check how far your shopping travels from the place it was produces until it reaches your supermarket. Make informed decision where to shop.",
+      github:"https://github.com/crianonim/FoodMiles",
       live:"#",
       screenshot:["img/trainspiration/trainspiration1.png","img/trainspiration/trainspiration2.png","img/trainspiration/trainspiration3.png"],
       stack:["JS","HTML"],
