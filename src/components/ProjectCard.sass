@@ -17,13 +17,14 @@ $lighter: #eee
        
        a, .project-type-icon
         opacity: 0.7
-        transition: all 0.5s
+        transition: opacity 0.5s  
         margin-left: 1rem 
-
+        svg
+           transition: transform 0.3s
         
         &:hover
           opacity: 1
-          svg
+          svg 
            transform: scale(1.2)
         
 
