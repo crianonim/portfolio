@@ -32,7 +32,7 @@ export default () => {
         setUsers(
           json
             .sort(() => Math.random() - 0.5)
-            .map(user => ({ name: user.name, url: user.html_url }))
+            .map(user => ({ name: user.name, url: user.html_url, img:user.avatar_url }))
         )
       )
       .then(() => {
