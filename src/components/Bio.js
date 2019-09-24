@@ -3,7 +3,7 @@ import ReactTooltip from "react-tooltip";
 import "./Bio.sass";
 export default () => {
   return (
-    <div>
+    <div className="bio">
       <p>
         I am a <span className="tip" data-tip="Wheter it's a new language (natural or programming), new cooking recipe, <br> or a new way to do something I already know <br> I try to make sure everthing I do has a learning component to it."> curious learner </span>
          and want to turn my <span className="tip" data-tip="I wrote my first lines in 1991 in BASIC after getting a 'powerful' Commodore 64 computer<br>I was hooked for life, coding became my pleasure and joy.">lifelong passion for coding </span> 
