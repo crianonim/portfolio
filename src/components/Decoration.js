@@ -32,13 +32,13 @@ export default () => {
         setUsers(
           json
             .sort(() => Math.random() - 0.5)
-            .map(user => ({ name: user.name, url: user.html_url, img:user.avatar_url }))
+            .map(user => ({ name: user.login, url: user.html_url, img:user.avatar_url }))
         )
       )
       .then(() => {
         intervalUsers = setInterval(() => {
           setUsers(users => users.sort(() => Math.random() - 0.5).slice());
-        }, 5000);
+        }, 50000);
       });
     return () => {
       clearInterval(intervalRepos);
