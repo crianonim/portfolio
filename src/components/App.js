@@ -3,6 +3,7 @@ import Bio from './Bio';
 
 import Header from './Header';
 import TabbedContent from './TabbedContent';
+import Decoration from './Decoration';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <Header/>
       <Bio/>
       <TabbedContent />
-      
+      <Decoration />
     </div>
   );
 }
