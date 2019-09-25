@@ -1,5 +1,34 @@
 export const projects = [
   { 
+    name: "SVaroG" ,
+    type:"personal",
+    description:"SVG editor and generator focused on precision and manually updating the shape properties",
+    github:"https://github.com/crianonim/svarog",
+    live:"https://crianonim.github.io/svarog/",
+    screenshot:["img/svarog/svarog1.png","img/svarog/svarog2.png","img/svarog/svarog_mobile.png",],
+    stack:["react","svg","sass","bulma","jest"],
+    problem:[
+     `create and edit a SVG`,
+     `work offline if needed`,
+     `being able to save current work locally`,
+     `import existing SVG`
+    ],
+    tech:[
+        "React with hooks",
+        "SVG",
+        "Sass",
+        "Jest and Enzyme",
+        "Bulma"
+    ],
+    learning:[
+        "Creating, displaying, parsing and manipulating SVG and their child element using code",
+        "Using Bulma css library for consistent look",
+        "Use React with hooks (including custom hooks) to manage the UI",
+        "Testing React components with Enzyme",
+    ]
+  
+  },
+  { 
     name: "BusLonBus" ,
     type:"personal",
     description:"Simple and efficient London Bus app written in pure vanilla JavaScript using lastest features.",
@@ -57,6 +86,35 @@ export const projects = [
     
     },
     { 
+      name: "FoodMiles" ,
+      type:"team",
+      description:"Check how far your shopping travels from the place it was produced until it reaches your supermarket. Make informed decision where to shop.",
+      github:"https://github.com/crianonim/FoodMiles",
+      live:"https://foodmiles.herokuapp.com",
+      screenshot:["img/foodmiles/food1.png","img/foodmiles/food2.png","img/foodmiles/food3.png","img/foodmiles/food4.png"],
+      stack:["node","express","handlebars","pg"],
+      problem:[
+        "select my shopping items",
+        "see overview of supermarkets and how they fare as it comes to local produce",
+        "see origins of all the produce I want to buy and how they contribute to the score"
+      ],
+      tech:[
+          "Node.js",
+          "Express.js",
+          "Handlebars",
+          "PostgreSQL",
+          "Tape"
+      ],
+      learning:[
+          "Moving business logic to database",
+          "Unit and integration testing",
+          "Design sprint",
+          "User testing",
+          "Scrum master duties (my role in the team) "
+        ]
+    
+    },
+    { 
       name: "Tytubka" ,
       type:"personal",
       description:"Web app to store and download Youtube videos to watch offline.",
@@ -84,134 +142,6 @@ export const projects = [
           "Using Google Authorisation both on the frontend but also verifying it and using it to manage users account",
           "Effectively working with filesystem with node.js"
       ]
-    
-    },
-    { 
-      name: "StarTrader" ,
-      type:"personal",
-      description:"Get rich in a web space trading game",
-      github:"https://github.com/crianonim/star-trader",
-      live:"https://crianonim.github.io/star-trader/",
-      screenshot:["img/star-trader/star0.png","img/star-trader/star1.png","img/star-trader/star2.png","img/star-trader/star3.png","img/star-trader/star.webm"],
-      stack:["react","material","redux"],
-      problem:[
-       `play a game in which I am a trader in space!`,
-       `travel between trading posts on different planets`,
-       `buy and sell goods at changing prices and make profit`
-      ],
-      tech:[
-          "React with hooks",
-          "React Material-UI",
-          "Redux",
-      ],
-      learning:[
-          "Using React Material-UI component library for a polished look",
-          "Customising the app theme",
-          "CSS-in-JS and styled components",
-          `Using Redux effectively, dealing with the problem of random changes needed for the app
-          while keeping the reducers pure and predictable`,
-      ]
-    
-    },
-    { 
-      name: "SVaroG" ,
-      type:"personal",
-      description:"SVG editor and generator focused on precision and manually updating the shape properties",
-      github:"https://github.com/crianonim/svarog",
-      live:"https://crianonim.github.io/svarog/",
-      screenshot:["img/svarog/svarog1.png","img/svarog/svarog2.png","img/svarog/svarog_mobile.png",],
-      stack:["react","svg","sass","bulma","jest"],
-      problem:[
-       `create and edit a SVG`,
-       `work offline if needed`,
-       `being able to save current work locally`,
-       `import existing SVG`
-      ],
-      tech:[
-          "React with hooks",
-          "SVG",
-          "Sass",
-          "Jest and Enzyme",
-          "Bulma"
-      ],
-      learning:[
-          "Creating, displaying, parsing and manipulating SVG and their child element using code",
-          "Using Bulma css library for consistent look",
-          "Use React with hooks (including custom hooks) to manage the UI",
-          "Testing React components with Enzyme",
-      ]
-    
-    },
-    { 
-      name: "Text-game" ,
-      type:"personal",
-      description:"Text based adventure game with crafting and survival and rich dialogs and story.",
-      github:"https://github.com/crianonim/text-game",
-      live:"https://crianonim.github.io/text-game/dist/",
-      screenshot:["img/text_game.png"],
-      stack:["vue"],
-      problem:[
-       `play a dialog based game both on mobile and desktop`,
-       `deploy it without a need for the server, just frontend`,
-       `be able do create, modify and deploy my own scenario without writing code, just json files`,
-       `save and load game so I can continue playing with no progress loss`,
-       `have at least one playable game`   
-      ],
-      tech:[
-          "Vue.js frontend",
-      ],
-      learning:[
-          "Vue.js framework",
-          "Using complex JSON files to create and configure games, scenarios as not hard-coded",
-          "Create a custimisable and expandable product without knowing how to code"
-      ]
-    
-    }, { 
-      name: "No Man's Sky Directory" ,
-      type:"personal",
-      description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
-      github:"https://github.com/crianonim/nms-directory",
-      live:"https://crianonim.github.io/nms-directory",
-      screenshot:["img/nms/nms1.png","img/nms/nms2.png","img/nms/nms3.png"],
-      stack:["react","sass"],
-      problem:[
-        `see details of all materials available in the game`,
-        `learn what recipes there are to craft/refine given material`,
-        `check what a given material is used for`,
-        `sort and filter material list using various criteria`
-      ],
-      tech:[
-          "React","Sass"
-      ],
-      learning:[
-          "React with hooks",
-          "Scraping the outside sources (game wikipedia pages) to obtain data",
-          "Process different data sources in various formats into usable data model object"
-      ]
-    
-    },
-    { 
-      name: "Echoserver" ,
-      type:"personal",
-      description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
-      github:"https://github.com/crianonim/echoserver",
-      live:"https://echo-express.herokuapp.com/",
-      screenshot:["img/echoserver/echo1.png","img/echoserver/echo2.png"],
-      stack:["node","express"],
-      problem:[
-        "test api calls from the app I'm working on currently",
-        "make api calls with predictable responses so I my app can react accordingly",
-        "mock responses with specific status codes and delays so my app is more robust"
-      ],
-      tech:[
-          "Express.js",
-          "Node.js"
-      ],
-      learning:[
-          "Designing an API",
-          "Responding to different kinds of requests (HTTPS Methods, Accept Headers) with suitable responses",
-          "Generating different types of content for API caller consumption"
-        ]
     
     },
     { 
@@ -261,32 +191,105 @@ export const projects = [
     
     },
     { 
-      name: "FoodMiles" ,
-      type:"team",
-      description:"Check how far your shopping travels from the place it was produced until it reaches your supermarket. Make informed decision where to shop.",
-      github:"https://github.com/crianonim/FoodMiles",
-      live:"https://foodmiles.herokuapp.com",
-      screenshot:["img/foodmiles/food1.png","img/foodmiles/food2.png","img/foodmiles/food3.png","img/foodmiles/food4.png"],
-      stack:["node","express","handlebars","pg"],
+      name: "StarTrader" ,
+      type:"personal",
+      description:"Get rich in a web space trading game",
+      github:"https://github.com/crianonim/star-trader",
+      live:"https://crianonim.github.io/star-trader/",
+      screenshot:["img/star-trader/star0.png","img/star-trader/star1.png","img/star-trader/star2.png","img/star-trader/star3.png","img/star-trader/star.webm"],
+      stack:["react","material","redux"],
       problem:[
-        "select my shopping items",
-        "see overview of supermarkets and how they fare as it comes to local produce",
-        "see origins of all the produce I want to buy and how they contribute to the score"
+       `play a game in which I am a trader in space!`,
+       `travel between trading posts on different planets`,
+       `buy and sell goods at changing prices and make profit`
       ],
       tech:[
-          "Node.js",
-          "Express.js",
-          "Handlebars",
-          "PostgreSQL",
-          "Tape"
+          "React with hooks",
+          "React Material-UI",
+          "Redux",
       ],
       learning:[
-          "Moving business logic to database",
-          "Unit and integration testing",
-          "Design sprint",
-          "User testing",
-          "Scrum master duties (my role in the team) "
+          "Using React Material-UI component library for a polished look",
+          "Customising the app theme",
+          "CSS-in-JS and styled components",
+          `Using Redux effectively, dealing with the problem of random changes needed for the app
+          while keeping the reducers pure and predictable`,
+      ]
+    
+    },
+   
+   { 
+      name: "No Man's Sky Directory" ,
+      type:"personal",
+      description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
+      github:"https://github.com/crianonim/nms-directory",
+      live:"https://crianonim.github.io/nms-directory",
+      screenshot:["img/nms/nms1.png","img/nms/nms2.png","img/nms/nms3.png"],
+      stack:["react","sass"],
+      problem:[
+        `see details of all materials available in the game`,
+        `learn what recipes there are to craft/refine given material`,
+        `check what a given material is used for`,
+        `sort and filter material list using various criteria`
+      ],
+      tech:[
+          "React","Sass"
+      ],
+      learning:[
+          "React with hooks",
+          "Scraping the outside sources (game wikipedia pages) to obtain data",
+          "Process different data sources in various formats into usable data model object"
+      ]
+    
+    },
+    { 
+      name: "Echoserver" ,
+      type:"personal",
+      description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
+      github:"https://github.com/crianonim/echoserver",
+      live:"https://echo-express.herokuapp.com/",
+      screenshot:["img/echoserver/echo1.png","img/echoserver/echo2.png"],
+      stack:["node","express"],
+      problem:[
+        "test api calls from the app I'm working on currently",
+        "make api calls with predictable responses so I my app can react accordingly",
+        "mock responses with specific status codes and delays so my app is more robust"
+      ],
+      tech:[
+          "Express.js",
+          "Node.js"
+      ],
+      learning:[
+          "Designing an API",
+          "Responding to different kinds of requests (HTTPS Methods, Accept Headers) with suitable responses",
+          "Generating different types of content for API caller consumption"
         ]
     
     },
+    { 
+      name: "Text-game" ,
+      type:"personal",
+      description:"Text based adventure game with crafting and survival and rich dialogs and story.",
+      github:"https://github.com/crianonim/text-game",
+      live:"https://crianonim.github.io/text-game/dist/",
+      screenshot:["img/text_game.png"],
+      stack:["vue"],
+      problem:[
+       `play a dialog based game both on mobile and desktop`,
+       `deploy it without a need for the server, just frontend`,
+       `be able do create, modify and deploy my own scenario without writing code, just json files`,
+       `save and load game so I can continue playing with no progress loss`,
+       `have at least one playable game`   
+      ],
+      tech:[
+          "Vue.js frontend",
+      ],
+      learning:[
+          "Vue.js framework",
+          "Using complex JSON files to create and configure games, scenarios as not hard-coded",
+          "Create a custimisable and expandable product without knowing how to code"
+      ]
+    
+    },  
+    
 ];
