@@ -61,7 +61,7 @@ export const projects = [
       type:"personal",
       description:"Web app to store and download Youtube videos to watch offline.",
       github:"https://github.com/crianonim/tytubka",
-      live:"https://listonosz-postman.herokuapp.com/",
+      live:"https://tytubka.jans.site/#/",
       screenshot:["img/tytubka/tytubka0.png"],
       stack:["vue","express"],
       problem:[
@@ -118,9 +118,9 @@ export const projects = [
       type:"personal",
       description:"SVG editor and generator focused on precision and manually updating the shape properties",
       github:"https://github.com/crianonim/svarog",
-      live:"https://listonosz-postman.herokuapp.com/",
+      live:"https://crianonim.github.io/svarog/",
       screenshot:["img/svarog/svarog1.png","img/svarog/svarog2.png","img/svarog/svarog_mobile.png",],
-      stack:["react","svg","sass","bulma","enzyme"],
+      stack:["react","svg","sass","bulma","jest"],
       problem:[
        `create and edit a SVG`,
        `work offline if needed`,
@@ -131,7 +131,7 @@ export const projects = [
           "React with hooks",
           "SVG",
           "Sass",
-          "Enzyme",
+          "Jest and Enzyme",
           "Bulma"
       ],
       learning:[
@@ -195,8 +195,8 @@ export const projects = [
       type:"personal",
       description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
       github:"https://github.com/crianonim/echoserver",
-      live:"#",
-      screenshot:["img/echoserver/echo1.png"],
+      live:"https://echo-express.herokuapp.com/",
+      screenshot:["img/echoserver/echo1.png","img/echoserver/echo2.png"],
       stack:["node","express"],
       problem:[
         "test api calls from the app I'm working on currently",
@@ -217,15 +217,14 @@ export const projects = [
     { 
       name: "BELO News" ,
       type:"team",
-      description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
-      github:"https://github.com/crianonim/echoserver",
-      live:"#",
+      description:"Web app that delivers you news according to your choice.",
+      github:"https://github.com/crianonim/Belo-News",
+      live:"https://belo.jans.site",
       screenshot:["img/belo/belo1.png","img/belo/belo2.png","img/belo/belo3.png"],
       stack:["node","express"],
       problem:[
-        "show current tube status using TFL public API",
-        "provide an inspiration quote from an external API",
-        "show random inspirational picture from an external API"
+        "provide a way to input search term",
+        "display news fetched from an external API ",
       ],
       tech:[
           "Express.js",
@@ -233,19 +232,19 @@ export const projects = [
       ],
       learning:[
           "Using external API service to feed data to an app",
-          "Hide API keys in environment variables and apply them in different deployment environment",
           "Integrating Github, Travis, CodeCov and Heroku",
-          "Testing routes with supertest"
+          "Testing routes with supertest",
+          "Mocking responses with Nock"
         ]
     
     },{ 
       name: "Trainspiration" ,
       type:"team",
-      description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
-      github:"https://github.com/crianonim/echoserver",
-      live:"#",
+      description:"London is one of the world's leading business centres with a public transport network to match. Business and travel, trains and inspiration; get a daily dose of wisdom live from trainspiration",
+      github:"https://github.com/crianonim/trainspiration",
+      live:"https://trainspiration.netlify.com/",
       screenshot:["img/trainspiration/trainspiration1.png","img/trainspiration/trainspiration2.png","img/trainspiration/trainspiration3.png"],
-      stack:["JS","HTML"],
+      stack:["js","html"],
       problem:[
         "show current tube status using TFL public API",
         "provide an inspiration quote from an external API",
@@ -264,23 +263,29 @@ export const projects = [
     { 
       name: "FoodMiles" ,
       type:"team",
-      description:"Check how far your shopping travels from the place it was produces until it reaches your supermarket. Make informed decision where to shop.",
+      description:"Check how far your shopping travels from the place it was produced until it reaches your supermarket. Make informed decision where to shop.",
       github:"https://github.com/crianonim/FoodMiles",
-      live:"#",
-      screenshot:["img/trainspiration/trainspiration1.png","img/trainspiration/trainspiration2.png","img/trainspiration/trainspiration3.png"],
-      stack:["JS","HTML"],
+      live:"https://foodmiles.herokuapp.com",
+      screenshot:["img/foodmiles/food1.png","img/foodmiles/food2.png","img/foodmiles/food3.png","img/foodmiles/food4.png"],
+      stack:["node","express","handlebars","pg"],
       problem:[
-        "show current tube status using TFL public API",
-        "provide an inspiration quote from an external API",
-        "show random inspirational picture from an external API"
+        "select my shopping items",
+        "see overview of supermarkets and how they fare as it comes to local produce",
+        "see origins of all the produce I want to buy and how they contribute to the score"
       ],
       tech:[
-          "JS",
-          "HTML"
+          "Node.js",
+          "Express.js",
+          "Handlebars",
+          "PostgreSQL",
+          "Tape"
       ],
       learning:[
-          "Using three different external API calls, and combine them in our app",
-          "Understanding CORS policy and handle problems with it using proxy"
+          "Moving business logic to database",
+          "Unit and integration testing",
+          "Design sprint",
+          "User testing",
+          "Scrum master duties (my role in the team) "
         ]
     
     },

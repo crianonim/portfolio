@@ -1,13 +1,18 @@
 import React from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import { faVuejs, faHtml5, faJs, faNodeJs, faReact, faSass} from '@fortawesome/free-brands-svg-icons';
+import { faVuejs, faHtml5, faJs, faNodeJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
 
 import ExpressIcon from '../assets/expressjs.svg'
 import VuetifyIcon from '../assets/vuetify.svg'
 import ReduxIcon from '../assets/redux.svg'
 import MaterialIcon from '../assets/material.svg'
 import SVGIcon from '../assets/svg.svg'
+import HandlebarsIcon from '../assets/handlebars.svg';
+import PgIcon from '../assets/pg.svg';
+import BulmaIcon from '../assets/bulma.svg';
+import JestIcon from '../assets/jest.svg';
+
 import './StackIcons.sass';
 
 const stackIcons=[
@@ -21,7 +26,13 @@ const stackIcons=[
   {name:"redux",type:"svg",data:ReduxIcon,title:"Redux"},
   {name:"material",type:"svg",data:MaterialIcon,title:"Material UI Material Component Library for React"},
   {name:"svg",type:"svg",data:SVGIcon,title:"Scalable Vector Graphic"},
-  {name:"sass",type:"fa",data:faSass,title:"Sass"}
+  {name:"sass",type:"fa",data:faSass,title:"Sass"},
+  {name:"handlebars",type:"svg",data:HandlebarsIcon,title:"Handlebars templating language"},
+  {name:"pg",type:"svg",data:PgIcon,title:"PostgreSQL"},
+  {name:"bulma",type:"svg",data:BulmaIcon,title:"Bulma Css library"},
+  {name:"jest",type:"svg",data:JestIcon,title:"Jest testing library"},
+
+
 ]
 
 export default ({stack})=>{
