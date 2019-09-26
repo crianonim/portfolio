@@ -266,30 +266,30 @@ export const projects = [
         ]
     
     },
-    { 
-      name: "Text-game" ,
-      type:"personal",
-      description:"Text based adventure game with crafting and survival and rich dialogs and story.",
-      github:"https://github.com/crianonim/text-game",
-      live:"https://crianonim.github.io/text-game/dist/",
-      screenshot:["img/text_game.png"],
-      stack:["vue"],
-      problem:[
-       `play a dialog based game both on mobile and desktop`,
-       `deploy it without a need for the server, just frontend`,
-       `be able do create, modify and deploy my own scenario without writing code, just json files`,
-       `save and load game so I can continue playing with no progress loss`,
-       `have at least one playable game`   
-      ],
-      tech:[
-          "Vue.js frontend",
-      ],
-      learning:[
-          "Vue.js framework",
-          "Using complex JSON files to create and configure games, scenarios as not hard-coded",
-          "Create a custimisable and expandable product without knowing how to code"
-      ]
+    // { 
+    //   name: "Text-game" ,
+    //   type:"personal",
+    //   description:"Text based adventure game with crafting and survival and rich dialogs and story.",
+    //   github:"https://github.com/crianonim/text-game",
+    //   live:"https://crianonim.github.io/text-game/dist/",
+    //   screenshot:["img/text_game.png"],
+    //   stack:["vue"],
+    //   problem:[
+    //    `play a dialog based game both on mobile and desktop`,
+    //    `deploy it without a need for the server, just frontend`,
+    //    `be able do create, modify and deploy my own scenario without writing code, just json files`,
+    //    `save and load game so I can continue playing with no progress loss`,
+    //    `have at least one playable game`   
+    //   ],
+    //   tech:[
+    //       "Vue.js frontend",
+    //   ],
+    //   learning:[
+    //       "Vue.js framework",
+    //       "Using complex JSON files to create and configure games, scenarios as not hard-coded",
+    //       "Create a custimisable and expandable product without knowing how to code"
+    //   ]
     
-    },  
+    // },  
     
 ];
