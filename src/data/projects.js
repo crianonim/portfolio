@@ -196,7 +196,7 @@ export const projects = [
       description:"Arcade Game in React",
       github:"https://github.com/crianonim/flee-your-followers",
       live:"https://fyf-react.netlify.com/",
-      screenshot:["img/star-trader/star0.png","img/star-trader/star1.png","img/star-trader/star2.png","img/star-trader/star3.png","img/star-trader/star.webm"],
+      screenshot:["img/fyf/fyf0.png","img/fyf/fyf1.png","img/fyf/fyf2.png","img/fyf/fyf3.png"],
       stack:["react"],
       problem:[
        `play an arcade game where I have to avoid collision with enemies`,
