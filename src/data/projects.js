@@ -191,33 +191,54 @@ export const projects = [
     
     },
     { 
-      name: "StarTrader" ,
-      type:"personal",
-      description:"Get rich in a web space trading game",
-      github:"https://github.com/crianonim/star-trader",
-      live:"https://crianonim.github.io/star-trader/",
+      name: "Flee your followers!" ,
+      type:"team",
+      description:"Arcade Game in React",
+      github:"https://github.com/crianonim/flee-your-followers",
+      live:"https://fyf-react.netlify.com/",
       screenshot:["img/star-trader/star0.png","img/star-trader/star1.png","img/star-trader/star2.png","img/star-trader/star3.png","img/star-trader/star.webm"],
-      stack:["react","material","redux"],
+      stack:["react"],
       problem:[
-       `play a game in which I am a trader in space!`,
-       `travel between trading posts on different planets`,
-       `buy and sell goods at changing prices and make profit`
+       `play an arcade game where I have to avoid collision with enemies`,
+       `get player and enemies data from Github API `,
+       `store high scores in localstorage`
       ],
       tech:[
-          "React with hooks",
-          "React Material-UI",
-          "Redux",
+          "React",
+          "react testing library",
       ],
       learning:[
-          "Using React Material-UI component library for a polished look",
-          "Customising the app theme",
-          "CSS-in-JS and styled components",
-          `Using Redux effectively, dealing with the problem of random changes needed for the app
-          while keeping the reducers pure and predictable`,
+          "Using React with async functionality (setInterval)",
+          "Storing data in localstorage",
+          "Integrate API calls in React app",
+          "Testing components using react testing library"
       ]
     
     },
-   
+    { 
+      name: "No Man's Sky Directory" ,
+      type:"personal",
+      description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
+      github:"https://github.com/crianonim/nms-directory",
+      live:"https://crianonim.github.io/nms-directory",
+      screenshot:["img/nms/nms1.png","img/nms/nms2.png","img/nms/nms3.png"],
+      stack:["react","sass"],
+      problem:[
+        `see details of all materials available in the game`,
+        `learn what recipes there are to craft/refine given material`,
+        `check what a given material is used for`,
+        `sort and filter material list using various criteria`
+      ],
+      tech:[
+          "React","Sass"
+      ],
+      learning:[
+          "React with hooks",
+          "Scraping the outside sources (game wikipedia pages) to obtain data",
+          "Process different data sources in various formats into usable data model object"
+      ]
+    
+    },
    { 
       name: "No Man's Sky Directory" ,
       type:"personal",
