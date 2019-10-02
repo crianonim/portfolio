@@ -215,30 +215,7 @@ export const projects = [
       ]
     
     },
-    { 
-      name: "No Man's Sky Directory" ,
-      type:"personal",
-      description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
-      github:"https://github.com/crianonim/nms-directory",
-      live:"https://crianonim.github.io/nms-directory",
-      screenshot:["img/nms/nms1.png","img/nms/nms2.png","img/nms/nms3.png"],
-      stack:["react","sass"],
-      problem:[
-        `see details of all materials available in the game`,
-        `learn what recipes there are to craft/refine given material`,
-        `check what a given material is used for`,
-        `sort and filter material list using various criteria`
-      ],
-      tech:[
-          "React","Sass"
-      ],
-      learning:[
-          "React with hooks",
-          "Scraping the outside sources (game wikipedia pages) to obtain data",
-          "Process different data sources in various formats into usable data model object"
-      ]
     
-    },
    { 
       name: "No Man's Sky Directory" ,
       type:"personal",
