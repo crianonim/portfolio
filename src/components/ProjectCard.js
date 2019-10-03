@@ -18,7 +18,7 @@ export default ({project,setFilter})=>{
         <article className="project-card">
           <header>
             <div className="image-wrapper">
-                <img onClick={()=>setToggler(!toggler)} alt={project.name} src={project.screenshot[0]}/>
+                <img onClick={()=>setToggler(!toggler)} alt={project.name} src={project.cardimage}/>
                 <FontAwesomeIcon className="zoom-icon" icon={faSearch} />
             </div>
             <div className="project-content">

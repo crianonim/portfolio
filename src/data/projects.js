@@ -6,6 +6,7 @@ export const projects = [
     github:"https://github.com/crianonim/svarog",
     live:"https://crianonim.github.io/svarog/",
     screenshot:["img/svarog/svarog1.webp","img/svarog/svarog2.webp","img/svarog/svarog_mobile.webp",],
+    cardimage:"img/svarog/_svarog1.webp",
     stack:["react","svg","sass","bulma","jest"],
     problem:[
      `create and edit a SVG`,
@@ -35,6 +36,7 @@ export const projects = [
     github:"https://github.com/crianonim/buslonbus",
     live:"https://crianonim.github.io/buslonbus/",
     screenshot:["img/buslonbus/img1.webp","img/buslonbus/img2.webp","img/buslonbus/img3.webp","img/buslonbus/BusLonBus.webm"],
+    cardimage:"img/buslonbus/_img1.webp",
     stack:["js","html"],
     problem:[
       `quickly find next arrivals at selected bus stop, chosen based on my location or code displayed at the stop`,
@@ -63,6 +65,7 @@ export const projects = [
       github:"https://github.com/crianonim/listonosz",
       live:"https://listonosz-postman.herokuapp.com/",
       screenshot:["img/listonosz/listonosz1.webp","img/listonosz/listonosz2.webp","img/listonosz/listonosz3.webp","img/listonosz/listonosz4.webp"],
+      cardimage:"img/listonosz/_listonosz1.webp",
       stack:[
         "vue","vuetify","express"
       ],
@@ -92,6 +95,7 @@ export const projects = [
       github:"https://github.com/crianonim/FoodMiles",
       live:"https://foodmiles.herokuapp.com",
       screenshot:["img/foodmiles/food1.webp","img/foodmiles/food2.webp","img/foodmiles/food3.webp","img/foodmiles/food4.webp"],
+      cardimage:"img/foodmiles/_food1.webp",
       stack:["node","express","handlebars","pg"],
       problem:[
         "select my shopping items",
@@ -121,6 +125,8 @@ export const projects = [
       github:"https://github.com/crianonim/tytubka",
       live:"https://tytubka.jans.site/#/",
       screenshot:["img/tytubka/tytubka0.webp"],
+      cardimage:["img/tytubka/_tytubka0.webp"],
+
       stack:["vue","express"],
       problem:[
        `find a video if youtube link is entered`,
@@ -151,6 +157,7 @@ export const projects = [
       github:"https://github.com/crianonim/Belo-News",
       live:"https://belo.jans.site",
       screenshot:["img/belo/belo1.webp","img/belo/belo2.webp","img/belo/belo3.webp"],
+      cardimage:"img/belo/_belo1.webp",
       stack:["node","express"],
       problem:[
         "provide a way to input search term",
@@ -174,6 +181,7 @@ export const projects = [
       github:"https://github.com/crianonim/trainspiration",
       live:"https://trainspiration.netlify.com/",
       screenshot:["img/trainspiration/trainspiration1.webp","img/trainspiration/trainspiration2.webp","img/trainspiration/trainspiration3.webp"],
+      cardimage:"img/trainspiration/_trainspiration1.webp",
       stack:["js","html"],
       problem:[
         "show current tube status using TFL public API",
@@ -197,6 +205,7 @@ export const projects = [
       github:"https://github.com/crianonim/flee-your-followers",
       live:"https://fyf-react.netlify.com/",
       screenshot:["img/fyf/fyf0.webp","img/fyf/fyf1.webp","img/fyf/fyf2.webp","img/fyf/fyf3.webp"],
+      cardimage:"img/fyf/_fyf0.webp",
       stack:["react"],
       problem:[
        `play an arcade game where I have to avoid collision with enemies`,
@@ -223,6 +232,7 @@ export const projects = [
       github:"https://github.com/crianonim/nms-directory",
       live:"https://crianonim.github.io/nms-directory",
       screenshot:["img/nms/nms1.webp","img/nms/nms2.webp","img/nms/nms3.webp"],
+      cardimage:"img/nms/_nms1.webp",
       stack:["react","sass"],
       problem:[
         `see details of all materials available in the game`,
@@ -247,6 +257,7 @@ export const projects = [
       github:"https://github.com/crianonim/echoserver",
       live:"https://echo-express.herokuapp.com/",
       screenshot:["img/echoserver/echo1.webp","img/echoserver/echo2.webp"],
+      cardimage:"img/echoserver/_echo1.webp",
       stack:["node","express"],
       problem:[
         "test api calls from the app I'm working on currently",
