@@ -5,7 +5,7 @@ export const projects = [
     description:"SVG editor and generator focused on precision and manually updating the shape properties",
     github:"https://github.com/crianonim/svarog",
     live:"https://crianonim.github.io/svarog/",
-    screenshot:["img/svarog/svarog1.png","img/svarog/svarog2.png","img/svarog/svarog_mobile.png",],
+    screenshot:["img/svarog/svarog1.webp","img/svarog/svarog2.webp","img/svarog/svarog_mobile.webp",],
     stack:["react","svg","sass","bulma","jest"],
     problem:[
      `create and edit a SVG`,
@@ -34,7 +34,7 @@ export const projects = [
     description:"Simple and efficient London Bus app written in pure vanilla JavaScript using lastest features.",
     github:"https://github.com/crianonim/buslonbus",
     live:"https://crianonim.github.io/buslonbus/",
-    screenshot:["img/buslonbus/img1.png","img/buslonbus/img2.png","img/buslonbus/img3.png","img/buslonbus/BusLonBus.webm"],
+    screenshot:["img/buslonbus/img1.webp","img/buslonbus/img2.webp","img/buslonbus/img3.webp","img/buslonbus/BusLonBus.webm"],
     stack:["js","html"],
     problem:[
       `quickly find next arrivals at selected bus stop, chosen based on my location or code displayed at the stop`,
@@ -62,7 +62,7 @@ export const projects = [
       description:"Postman clone run as a web app either locally or hosted in the cloud.",
       github:"https://github.com/crianonim/listonosz",
       live:"https://listonosz-postman.herokuapp.com/",
-      screenshot:["img/listonosz/listonosz1.png","img/listonosz/listonosz2.png","img/listonosz/listonosz3.png","img/listonosz/listonosz4.png"],
+      screenshot:["img/listonosz/listonosz1.webp","img/listonosz/listonosz2.webp","img/listonosz/listonosz3.webp","img/listonosz/listonosz4.webp"],
       stack:[
         "vue","vuetify","express"
       ],
@@ -91,7 +91,7 @@ export const projects = [
       description:"Check how far your shopping travels from the place it was produced until it reaches your supermarket. Make informed decision where to shop.",
       github:"https://github.com/crianonim/FoodMiles",
       live:"https://foodmiles.herokuapp.com",
-      screenshot:["img/foodmiles/food1.png","img/foodmiles/food2.png","img/foodmiles/food3.png","img/foodmiles/food4.png"],
+      screenshot:["img/foodmiles/food1.webp","img/foodmiles/food2.webp","img/foodmiles/food3.webp","img/foodmiles/food4.webp"],
       stack:["node","express","handlebars","pg"],
       problem:[
         "select my shopping items",
@@ -120,7 +120,7 @@ export const projects = [
       description:"Web app to store and download Youtube videos to watch offline.",
       github:"https://github.com/crianonim/tytubka",
       live:"https://tytubka.jans.site/#/",
-      screenshot:["img/tytubka/tytubka0.png"],
+      screenshot:["img/tytubka/tytubka0.webp"],
       stack:["vue","express"],
       problem:[
        `find a video if youtube link is entered`,
@@ -150,7 +150,7 @@ export const projects = [
       description:"Web app that delivers you news according to your choice.",
       github:"https://github.com/crianonim/Belo-News",
       live:"https://belo.jans.site",
-      screenshot:["img/belo/belo1.png","img/belo/belo2.png","img/belo/belo3.png"],
+      screenshot:["img/belo/belo1.webp","img/belo/belo2.webp","img/belo/belo3.webp"],
       stack:["node","express"],
       problem:[
         "provide a way to input search term",
@@ -173,7 +173,7 @@ export const projects = [
       description:"London is one of the world's leading business centres with a public transport network to match. Business and travel, trains and inspiration; get a daily dose of wisdom live from trainspiration",
       github:"https://github.com/crianonim/trainspiration",
       live:"https://trainspiration.netlify.com/",
-      screenshot:["img/trainspiration/trainspiration1.png","img/trainspiration/trainspiration2.png","img/trainspiration/trainspiration3.png"],
+      screenshot:["img/trainspiration/trainspiration1.webp","img/trainspiration/trainspiration2.webp","img/trainspiration/trainspiration3.webp"],
       stack:["js","html"],
       problem:[
         "show current tube status using TFL public API",
@@ -196,7 +196,7 @@ export const projects = [
       description:"Arcade Game in React",
       github:"https://github.com/crianonim/flee-your-followers",
       live:"https://fyf-react.netlify.com/",
-      screenshot:["img/fyf/fyf0.png","img/fyf/fyf1.png","img/fyf/fyf2.png","img/fyf/fyf3.png"],
+      screenshot:["img/fyf/fyf0.webp","img/fyf/fyf1.webp","img/fyf/fyf2.webp","img/fyf/fyf3.webp"],
       stack:["react"],
       problem:[
        `play an arcade game where I have to avoid collision with enemies`,
@@ -222,7 +222,7 @@ export const projects = [
       description:"Companion app to No Man's Sky video game helping to plan crafting and trading aspect of the game.",
       github:"https://github.com/crianonim/nms-directory",
       live:"https://crianonim.github.io/nms-directory",
-      screenshot:["img/nms/nms1.png","img/nms/nms2.png","img/nms/nms3.png"],
+      screenshot:["img/nms/nms1.webp","img/nms/nms2.webp","img/nms/nms3.webp"],
       stack:["react","sass"],
       problem:[
         `see details of all materials available in the game`,
@@ -246,7 +246,7 @@ export const projects = [
       description:"Highly customisable web service to genrate responses to API calls, CORS proxy service, and radnom content generator in one",
       github:"https://github.com/crianonim/echoserver",
       live:"https://echo-express.herokuapp.com/",
-      screenshot:["img/echoserver/echo1.png","img/echoserver/echo2.png"],
+      screenshot:["img/echoserver/echo1.webp","img/echoserver/echo2.webp"],
       stack:["node","express"],
       problem:[
         "test api calls from the app I'm working on currently",
@@ -270,7 +270,7 @@ export const projects = [
     //   description:"Text based adventure game with crafting and survival and rich dialogs and story.",
     //   github:"https://github.com/crianonim/text-game",
     //   live:"https://crianonim.github.io/text-game/dist/",
-    //   screenshot:["img/text_game.png"],
+    //   screenshot:["img/text_game.webp"],
     //   stack:["vue"],
     //   problem:[
     //    `play a dialog based game both on mobile and desktop`,
