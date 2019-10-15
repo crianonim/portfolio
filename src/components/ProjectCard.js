@@ -37,8 +37,8 @@ export default ({project,setFilter})=>{
             </div>
           </header>
           <div className="extended hidden" ref={extended}>
-              <h3>Problem / Requirements</h3>
-              <h4>I would like to...</h4>
+              <h3>Problem / Requirements / User Journey</h3>
+              <h4>As a user I would like to...</h4>
               <ul>
                 {project.problem.map((problem,i)=><li key={i}>{problem}</li>)}
               </ul>

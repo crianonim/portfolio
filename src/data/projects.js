@@ -37,7 +37,7 @@ export const projects = [
     live:"https://crianonim.github.io/buslonbus/",
     screenshot:["img/buslonbus/img1.webp","img/buslonbus/img2.webp","img/buslonbus/img3.webp","img/buslonbus/BusLonBus.webm"],
     cardimage:"img/buslonbus/_img1.webp",
-    stack:["js","html"],
+    stack:["js","html","pwa"],
     problem:[
       `quickly find next arrivals at selected bus stop, chosen based on my location or code displayed at the stop`,
       `bookmark selected stops`,
@@ -54,10 +54,40 @@ export const projects = [
         "It is not always easy to style custom elements protected with shadow root",
         "Using TFL Api",
         "Utilising Location Web API",
-        "(progressive web app)",
+        "Installable Progressive Web App",
     ]
   
   },
+  { 
+    name: "Autsera" ,
+    type:"team",
+    description:"Game for children with highly functioning autism, written in React for Autsera charity",
+    github:"https://github.com/fac-17/Autsera",
+    live:"https://autsera.netlify.com/",
+    screenshot:["img/foodmiles/food1.webp","img/foodmiles/food2.webp","img/foodmiles/food3.webp","img/foodmiles/food4.webp"],
+    cardimage:"img/foodmiles/_food1.webp",
+    stack:["react","pwa"],
+    problem:[
+      "select my shopping items",
+      "see overview of supermarkets and how they fare as it comes to local produce",
+      "see origins of all the produce I want to buy and how they contribute to the score"
+    ],
+    tech:[
+        "React",
+        "Jest and react testing library",
+        "Sass",
+    ],
+    learning:[
+        "Moving business logic to database",
+        "Unit and integration testing",
+        "Design sprint",
+        "User testing",
+        "Scrum master duties (my role in the team) "
+      ]
+  
+  },
+
+
   { 
       name: "Listonosz" ,
       type:"personal",

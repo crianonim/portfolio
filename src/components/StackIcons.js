@@ -12,6 +12,7 @@ import HandlebarsIcon from '../assets/handlebars.svg';
 import PgIcon from '../assets/pg.svg';
 import BulmaIcon from '../assets/bulma.svg';
 import JestIcon from '../assets/jest.svg';
+import PWAIcon from "../assets/pwa.svg";
 
 import './StackIcons.sass';
 
@@ -31,6 +32,8 @@ const stackIcons=[
   {name:"pg",type:"svg",data:PgIcon,title:"PostgreSQL"},
   {name:"bulma",type:"svg",data:BulmaIcon,title:"Bulma Css library"},
   {name:"jest",type:"svg",data:JestIcon,title:"Jest testing library"},
+  {name:"pwa",type:"svg",data:PWAIcon,title:"Progressive Web App"},
+
 
 
 ]
