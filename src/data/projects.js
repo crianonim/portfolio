@@ -61,28 +61,30 @@ export const projects = [
   { 
     name: "Autsera" ,
     type:"team",
-    description:"Game for children with highly functioning autism, written in React for Autsera charity",
+    description:"Game for children with highly functioning autism, PWS in React for Autsera charity as part of Tech For Better programme",
     github:"https://github.com/fac-17/Autsera",
     live:"https://autsera.netlify.com/",
-    screenshot:["img/foodmiles/food1.webp","img/foodmiles/food2.webp","img/foodmiles/food3.webp","img/foodmiles/food4.webp"],
-    cardimage:"img/foodmiles/_food1.webp",
+    screenshot:["img/autsera/autsera0.webp","img/autsera/autsera1.webp","img/autsera/autsera2.webp","img/autsera/autsera3.webp","img/autsera/AutseraHelpFinal.mp4"],
+    cardimage:"img/autsera/_autsera0.webp",
     stack:["react","pwa"],
     problem:[
-      "select my shopping items",
-      "see overview of supermarkets and how they fare as it comes to local produce",
-      "see origins of all the produce I want to buy and how they contribute to the score"
+      "play a game that is suitable for children with autism",
+      "install game on my device and play offline",
+      "automatically save my progress on the device"
     ],
     tech:[
         "React",
+        "React Router",
+        "PWA",
         "Jest and react testing library",
         "Sass",
+        "Netlify"
     ],
     learning:[
-        "Moving business logic to database",
-        "Unit and integration testing",
-        "Design sprint",
-        "User testing",
-        "Scrum master duties (my role in the team) "
+        "Setting up a React app with installable PWA",
+        "Caching dynamic content for offline use",
+        "Collaboration with the Product Owner",
+        "Integrating Github, Netlify, Travis and CodeCov to work together",
       ]
   
   },
