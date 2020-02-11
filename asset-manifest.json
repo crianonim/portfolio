@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cba186cd.chunk.css",
+    "main.js": "/static/js/main.c49675c2.chunk.js",
+    "main.js.map": "/static/js/main.c49675c2.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.b908f969.js",
+    "runtime~main.js.map": "/static/js/runtime~main.b908f969.js.map",
+    "static/js/2.7484289c.chunk.js": "/static/js/2.7484289c.chunk.js",
+    "static/js/2.7484289c.chunk.js.map": "/static/js/2.7484289c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8bf01e34f4c58ef62a4d802e26d050bb.js": "/precache-manifest.8bf01e34f4c58ef62a4d802e26d050bb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.cba186cd.chunk.css.map": "/static/css/main.cba186cd.chunk.css.map",
+    "static/media/bulma.svg": "/static/media/bulma.db53db07.svg",
+    "static/media/expressjs.svg": "/static/media/expressjs.0fb30b49.svg",
+    "static/media/handlebars.svg": "/static/media/handlebars.4f08cded.svg",
+    "static/media/jest.svg": "/static/media/jest.2c3c135c.svg",
+    "static/media/material.svg": "/static/media/material.cb2f65a2.svg",
+    "static/media/pg.svg": "/static/media/pg.0a96b6a3.svg",
+    "static/media/pwa.svg": "/static/media/pwa.d5c539d0.svg",
+    "static/media/redux.svg": "/static/media/redux.5ae1af16.svg",
+    "static/media/svg.svg": "/static/media/svg.24664b9e.svg",
+    "static/media/vuetify.svg": "/static/media/vuetify.a1d6f016.svg"
+  }
+}
